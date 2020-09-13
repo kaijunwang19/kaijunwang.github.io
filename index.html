@@ -21,6 +21,7 @@
 				<a class="logo" href="#research">Research</a>
 				<a class="logo" href="#publication">Featured Publications</a>
 				<a class="logo" href="#teach">Teaching</a>
+				<a class="logo" href="#lectures">Presentations</a>
 				<a class="logo" href="#software">Softwares</a>
 			</header>
 
@@ -44,7 +45,7 @@
 					<h1>Kaijun Wang</h1>
 					<p style="margin:0">Postdoc, Fred Hutchinson Cancer Research Center</p>
 					<p style="font-size:100%; ">					
-					<i class="icon fa-user">&nbsp;</i> 1524 Eastlake Ave E, Seattle,WA 98102</a>
+					<i class="icon fa-user">&nbsp;</i> Robert M. Arnold Building, M2-C816, Seattle, WA 98109</a>
 					<i class="icon fa-envelope">&nbsp;</i> <a href="mailto:kaijunwang.19@gmail.com">kaijunwang.19@gmail.com</a>
 					</p>
 				</div>
@@ -55,9 +56,13 @@
 			<div class="inner">
 			<div class="content">
 				<h2>About Me</h2>
-					<p>I got my Ph.D. student at Department of Statistical Science, under the mentorship of Prof. Subhadeep Mukhopadhyay and will be
-					working with Dr. Ollivier Hyrien for my PostDoc at Fred Hutch. I'm interested in Nonparametric Statistical Learning, Graph Data Science and Computational Statistics.
-					In particular, I've been developing graph-based nonparametric methods that combines modern nonparametric with spectral graph theory to cope with large dimensional data sets.</p>
+					<p> My research focus is to provide nonparametric statistical solution to large scale data analyses. 
+					 I'm interested in Nonparametric Statistical Learning, Graph Data Science and Computational Statistics. 
+					I developed nonparametric methods that combines modern nonparametric with spectral graph theory 
+					to cope with large dimensional data sets and have several implementations available on CRAN. 
+					I got my Ph.D. student at Department of Statistical Science, under the mentorship of Prof. Subhadeep Mukhopadhyay. I'm currently
+					working with Dr. Ollivier Hyrien for my PostDoc at Fred Hutch on a analysis tool for high throughput flow cytometry data.
+					</p>
 			</div>
 			</div>
 			</section>
@@ -145,6 +150,9 @@
 			<header>
 				<h2>Education</h2>
 			</header>
+				<h3>Postdoctoral Research</h3>
+				<p>Fred Hutchinson Cancer Research Center, Vaccine and Infectious Disease Division </p>
+				<hr />
 				<h3>Ph.D., Statistics</h3>
 				<p>Temple University, Fox School of Business, Department of Statistical Science </p>
 				<hr />
@@ -166,6 +174,24 @@
 			<header>
 				<h2>Research Projects</h2>
 			</header>
+			<h3>Analyzing Dependency Structures of Responses to Stimuli in Flow Cytometry Data</h3>
+				<p>Flow cytometry data are usually used in modern study of immune-related diseases. 
+				So far, various model have been proposed on how to process the signal intensity to identify 
+				cell subsets of different marker combinations, yet little has been said what to do with the 
+				resulting count data. This is not a trivial matter as the resulting data set consists of sparse 
+				count data of high dimensionality, and analyzing it using traditional means are challenging. 
+				We believe that an important step to understanding this data set is finding out which subsets 
+				have similar responses to the stimuli. To this end, I'm developing a framework using mixture 
+				model and graph theory that can quickly cluster together marker combinations with similar 
+				reaction to stimuli for a given time period.   </p>
+				<hr />
+			<h3>Integrated Statistical Solution to Beta Regression Problem</h3>
+				<p>Beta regression have been the state of the art method for modelling a response variable 
+				over $(0,1)$ with high dimensional covariates. In this paper, we propose a different 
+				perspective to this problem by utilizing the modern LP nonparmetric statistics, which 
+				provides an elegant nonparametric answer for estimating these conditional distributions 
+				of the response variable.  </p>
+				<hr />
 				<h3>Heterogeneity, Relevance and Customized Inference</h3>
 				<p>In modern Large-Scale Inference problems, it is important to take the extra covariate information into account when performing inferences for the heterogeneous data.
  I am developing with Prof. Deep Mukhopadhyay a new paradigm of statistical modeling called ``Global-to-Local Inference", which will provide the necessary theory and algorithms for 
@@ -193,15 +219,19 @@
 			<div class="inner">
 			<div class="content">
 			<header>
-				<h2>Papers</h2>
+				<h2>Publications</h2>
 			</header>
 				<ol>
-				<li>Mukhopadhyay,  S. and <b>Kaijun Wang</b>(2019) 
+				<li>Mukhopadhyay,  S. and <b>Kaijun Wang</b>(2020) 
+				“On The Problem of Relevance in Statistical Inference”.<i>Under Review</i> </li><br>
+				<li>Mukhopadhyay,  S. and <b>Kaijun Wang</b>(2020) 
+				“Statistical Machine Learning: An Integrated Approach”.<i>Under Review</i> </li><br>
+				<li>Mukhopadhyay,  S. and <b>Kaijun Wang</b>(2020) 
 				“A  Nonparametric  Approach  to  High-dimensional 
-				Ksample Comparison Problem”.<a href="https://arxiv.org/pdf/1810.01724.pdf">arXiv:1810.01724</a></li><br>
-				<li>Mukhopadhyay, S. and <b>Kaijun Wang</b>(2019) “Spectral 
+				Ksample Comparison Problem”.<i>Biometrika</i> <b>107(3)</b> page 555–572 <a href="https://arxiv.org/pdf/1810.01724.pdf">arXiv:1810.01724</a></li><br>
+				<li>Mukhopadhyay, S. and <b>Kaijun Wang</b>(2020) “Spectral 
 				Graph Analysis:  A Unified Ex-planation and Modern 
-				Perspectives”. <a href="https://arxiv.org/pdf/1901.07090.pdf">arXiv:1901.07090</a></li><br>
+				Perspectives”. <i>Accepted by Nature Scientific Reports</i><a href="https://arxiv.org/pdf/1901.07090.pdf">arXiv:1901.07090</a></li><br>
 				<li>Zhu, Jiaqi, <b>Kaijun Wang</b>, Yunkun Wu, Zhongyi Hu, and Hongan Wang. 
 				(2016) ``Mining User-Aware Rare Sequential Topic Patterns in Document Streams."
 				<i>IEEE Transactions on Knowledge and Data Engineering</i>, 
@@ -229,6 +259,23 @@
 				</div>
 			</div>
 		</section>
+		
+		<a name="lectures"></a> 
+		<section id="main" class="wrapper">
+			<div class="inner">
+			<div class="content">
+			<header>
+				<h2>Featured Presentations</h2>
+			</header>
+				<ol>
+				<li>Graph-Based Compressive High-Dimensional Testing. <i>--JSM Conference Presentation</i>, 2020. </li><br>
+				<li>Graph-based Modern Nonparametrics For High-Dimensional Data. <i>--Temple University, Dissertation</i>, 2018. </li><br>
+				<li>Nonparametric High dimensional K-sample Comparison. <i>
+--Institute of Software, Chinese Academy of Sciences, Invited Talk</i>, 2018. </li><br>
+				</ol>
+			</div>
+			</div>
+		</section>
 
 
 	<!-- Codes -->
@@ -247,6 +294,9 @@
 				<h3><a href="https://CRAN.R-project.org/package=LPGraph"><i class="icon fa-cog">&nbsp;</i>LPGraph</a></h3>
 				<p>Fast and compressive nonparametric spectral algorithm for ordered graphs with application 
 				to the high-dimensional change point analysis. </p>
+				<hr />
+				<h3><a href="https://CRAN.R-project.org/package=LPRelevance"><i class="icon fa-cog">&nbsp;</i>LPRelevance</a></h3>
+				<p>Relevance-Integrated Statistical Inference Engine </p>
 				</div>
 			</div>
 		</section>
@@ -263,7 +313,7 @@
 						<section>
 							<h4>Address</h4>
 							<p>Kaijun Wang<br>
-							1524 Eastlake Ave E<br> 
+							Robert M. Arnold Building, M2-C816<br> 
 							Seattle,WA 98102<br>
 							Tel:(267)261-1836<br>
 							</p>
