@@ -178,6 +178,18 @@
 			<header>
 				<h2>Research Projects</h2>
 			</header>
+			<h3>Statistical Machine Learning: An Integrated Approach</h3>
+				<p>We introduces a new data analysis framework, called Integrated Statistical Learning (ISL) theory, 
+				which for the first time, offers solutions to blend the parametric statistical modeling and 
+				algorithmic machine learning into a coherent whole by establishing a link between them. This new 
+				integrated statistical method provide novel solutions to conditional density estimation, 
+				goodness-of-fit evaluation, quantile regression and much more.  </p>
+				<hr />
+				<h3>Heterogeneity, Relevance and Customized Inference</h3>
+				<p>In modern Large-Scale Inference problems, it is important to take the extra covariate information into account when performing inferences for the heterogeneous data.
+ I am developing with Prof. Deep Mukhopadhyay a new paradigm of statistical modeling called ``Global-to-Local Inference", which will provide the necessary theory and algorithms for 
+ this <i>Individualized Inference</i>. By borrowing strength from the full ensemble, this method generates simulated relevance samples to power subsequent analysis.  </p>
+				<hr />
 			<h3>Analyzing Dependency Structures of Responses to Stimuli in Flow Cytometry Data</h3>
 				<p>Flow cytometry data are usually used in modern study of immune-related diseases. 
 				So far, various model have been proposed on how to process the signal intensity to identify 
@@ -189,18 +201,7 @@
 				model and graph theory that can quickly cluster together marker combinations with similar 
 				reaction to stimuli for a given time period.   </p>
 				<hr />
-			<h3>Integrated Statistical Solution to Beta Regression Problem</h3>
-				<p>Beta regression have been the state of the art method for modelling a response variable 
-				over $(0,1)$ with high dimensional covariates. In this paper, we propose a different 
-				perspective to this problem by utilizing the modern LP nonparmetric statistics, which 
-				provides an elegant nonparametric answer for estimating these conditional distributions 
-				of the response variable.  </p>
-				<hr />
-				<h3>Heterogeneity, Relevance and Customized Inference</h3>
-				<p>In modern Large-Scale Inference problems, it is important to take the extra covariate information into account when performing inferences for the heterogeneous data.
- I am developing with Prof. Deep Mukhopadhyay a new paradigm of statistical modeling called ``Global-to-Local Inference", which will provide the necessary theory and algorithms for 
- this <i>Individualized Inference</i>. By borrowing strength from the full ensemble, this method generates simulated relevance samples to power subsequent analysis.  </p>
-				<hr />
+				
 				<h3>Nonparametric Approach to High-dimensional K-sample Comparison Problems</h3>
 				<p>Multivariate k-sample comparison problem frequently appears in a wide range of data-rich scientific fields. In this project, I developed an approach based on modern LP-nonparametric 
 				tools and unexplored connections with spectral graph theory, which demonstrated impressive robustness for noise contaminated data sets.  Furthermore, this method comes 
@@ -227,7 +228,7 @@
 			</header>
 				<ol>
 				<li>Graph-Based Compressive High-Dimensional Testing. <i>--JSM Conference Presentation</i>, 2020. </li><br>
-				<li>Graph-based Modern Nonparametrics For High-Dimensional Data. <i>--Temple University, Dissertation Topic</i>, 2018. </li><br>
+				<li>Graph-Based Modern Nonparametrics For High-Dimensional Data. <i>--Temple University, Dissertation Topic</i>, 2018. </li><br>
 				<li>Nonparametric High dimensional K-sample Comparison. <i>
 --Institute of Software, Chinese Academy of Sciences, Invited Talk</i>, 2018. </li><br>
 				</ol>
@@ -256,19 +257,19 @@
 			<div class="inner">
 			<div class="content">
 			<header>
-				<h2>Featured Publications</h2>
+				<h2>Selected Publications</h2>
 			</header>
 				<ol>
 				<li>Mukhopadhyay,  S. and <b>Kaijun Wang</b>(2020) 
-				“On The Problem of Relevance in Statistical Inference”.<i>Under Review</i> </li><br>
+				“On The Problem of Relevance in Statistical Inference”.<i>Under Review</i> <a href="https://arxiv.org/pdf/2004.09588.pdf">arXiv:2004.09588</a> </li><br>
 				<li>Mukhopadhyay,  S. and <b>Kaijun Wang</b>(2020) 
-				“Statistical Machine Learning: An Integrated Approach”.<i>Under Review</i> </li><br>
+				“Statistical Machine Learning: An Integrated Approach”.<i>Under Review</i> <a href="https://arxiv.org/pdf/2005.13596.pdf">arXiv:2005.13596</a></li><br>
 				<li>Mukhopadhyay,  S. and <b>Kaijun Wang</b>(2020) 
 				“A  Nonparametric  Approach  to  High-dimensional 
-				Ksample Comparison Problem”.<i>Biometrika</i> <b>107(3)</b> page 555–572 <a href="https://arxiv.org/pdf/1810.01724.pdf">arXiv:1810.01724</a></li><br>
+				K-sample Comparison Problem”.<i>Biometrika</i> <b>107(3)</b> page 555–572 <a href="https://arxiv.org/pdf/1810.01724.pdf">arXiv:1810.01724</a></li><br>
 				<li>Mukhopadhyay, S. and <b>Kaijun Wang</b>(2020) “Spectral 
 				Graph Analysis:  A Unified Ex-planation and Modern 
-				Perspectives”. <i>Accepted by Nature Scientific Reports</i><a href="https://arxiv.org/pdf/1901.07090.pdf">arXiv:1901.07090</a></li><br>
+				Perspectives”. <i>Accepted by Nature Scientific Reports</i> <a href="https://arxiv.org/pdf/1901.07090.pdf">arXiv:1901.07090</a></li><br>
 				<li>Zhu, Jiaqi, <b>Kaijun Wang</b>, Yunkun Wu, Zhongyi Hu, and Hongan Wang. 
 				(2016) ``Mining User-Aware Rare Sequential Topic Patterns in Document Streams."
 				<i>IEEE Transactions on Knowledge and Data Engineering</i>, 
@@ -305,7 +306,17 @@
 				to the high-dimensional change point analysis. </p>
 				<hr />
 				<h3><a href="https://CRAN.R-project.org/package=LPRelevance"><i class="icon fa-cog">&nbsp;</i>LPRelevance</a></h3>
-				<p>Relevance-Integrated Statistical Inference Engine </p>
+				<p>A framework of methods to perform customized inference at individual level by taking contextual covariates into account. 
+				Three main functions are provided in this package: (i) LASER(): it generates specially-designed artificial 
+				relevant samples for a given case; (ii) g2l.proc(): computes customized conditional fdr; and 
+				(iii) rEB.proc(): performs empirical Bayes inference based on LASERs.</p>
+				<hr />
+				<h3><a href="files/LPMachineLearning_manual.pdf"><i class="icon fa-cog">&nbsp;</i>LPMachineLearning</a></h3>
+				<p>Statistical modeling tools for converting a black-box ML algorithm
+into an interpretable conditional distribution prediction machine, which
+provides a wide range of facilities, including goodness-of-fit, various
+types of exploratory graphical diagnostics, generalized feature selection,
+predictive inference methods, and others.</p>
 				</div>
 			</div>
 		</section>
